@@ -40,6 +40,7 @@ import { AppRoutingModule } from './app.routing';
 import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import { TabsModule } from 'ngx-bootstrap/tabs';
 import { ChartsModule } from 'ng2-charts/ng2-charts';
+import { RegisterModule } from './views/register/register.module';
 
 @NgModule({
   imports: [
@@ -57,6 +58,7 @@ import { ChartsModule } from 'ng2-charts/ng2-charts';
     FormsModule,//validasyon icin
     ReactiveFormsModule,//validasyon icin
     CommonModule //validasyon icin
+ 
 
   ],
   declarations: [
@@ -64,8 +66,7 @@ import { ChartsModule } from 'ng2-charts/ng2-charts';
     ...APP_CONTAINERS,
     P404Component,
     P500Component,
-    LoginComponent,
-    RegisterComponent
+    LoginComponent
   ],
   providers: [{
     provide: LocationStrategy,

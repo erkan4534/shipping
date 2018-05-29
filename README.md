@@ -97,6 +97,7 @@ free-angular-admin-template/
 └── ...
 ```
 
+
 ## Documentation
 
 The documentation for the CoreUI Free Angularp Admin Template is hosted at our website [CoreUI](https://coreui.io/angular/)

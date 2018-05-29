@@ -36,6 +36,7 @@ export const routes: Routes = [
       title: 'Login Page'
     }
   },
+  /* 
   {
     path: 'register',
     component: RegisterComponent,
@@ -44,6 +45,7 @@ export const routes: Routes = [
       title: 'Register Page'
     }
   },
+  */
   {
     path: '',
     component: DefaultLayoutComponent,
@@ -82,7 +84,15 @@ export const routes: Routes = [
       {
         path: 'widgets',
         loadChildren: './views/widgets/widgets.module#WidgetsModule'
+      },
+
+      {
+        path: 'register',
+        loadChildren: './views/register/register.module#RegisterModule'
       }
+
+     
+
     ]
   }
 ];
